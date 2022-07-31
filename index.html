@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"\>
+    <title>Ayush Contractor</title>
+    <!------- links ------>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/icon browser.png">
+    
+    <!-- Add icon library -->
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {   
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+    
+</head>
+<body>
+
+    <div class="home" id="home">
+    <header>
+        <h1 class="logo">{a}</h1>
+        <nav>
+            <ul class="topnav">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <h1 class="title">Hi, I am Ayush Contractor</h1>
+    <div class="container"><span></span></div>
+    <div class="btn">
+      <a class="ctc" href="./pdf/resume.pdf">Resume</a>
+    </div>
+    <div class="mouse_icon">
+      <img src="./assets/mouse.svg" alt="mouse-icon">
+    </div>
+    </div>
+
+    <div class="about" id="about">
+        
+        <div class="about_me">
+          <div class="avatar"><img src="./assets/avatar.png" alt="profile image"></div>
+          <h1>Hey, Nice to meet you.</h1>
+          <p>HI, I am Ayush Contractor. I am a freelance UI/UX designer with an emphasis on simplicity and elegance.
+            Whether it be for a web or other designing project, I love to create beautiful and intuitive interfaces that are easy to use.
+            I am also enthusiastic about Python programming and web development.
+            I've done remote work for clients in india.
+            I am confident, creative and love to learn new things. I am always looking for new opportunities to grow my skills.
+      
+          </p>                       
+        </div>
+
+        <div class="skills">
+          <h1>Skills</h1>
+          <div class="skills_container">
+            <div class="bar">
+              <h2>Python</h2>
+              <div class="progress-line python"><a></a></div>
+            </div>
+            <div class="bar">
+              <h2>HTML</h2>
+              <div class="progress-line html"><a></a></div>
+            </div>
+            <div class="bar">
+              <h2>CSS</h2>
+              <div class="progress-line css"><a></a></div>
+            </div>
+            <div class="bar">
+              <h2>javascript</h2>
+              <div class="progress-line js"><a></a></div>
+            </div>
+            <div class="bar">
+              <h2>UI/UX Design</h2>
+              <div class="progress-line uiux"><a></a></div>
+            </div>
+          </div>       
+        </div>
+
+    </div>
+
+    <div class="projects" id="projects">
+      <h1>Projects</h1>
+      <nav>
+        <div class="items">
+          <a class="item active" data-name="all">All</a>
+          <a class="item" data-name="application">Application</a>
+          <a class="item" data-name="web design">Web Design</a>
+          <a class="item" data-name="graphic design">Graphic Design</a>
+        </div>
+      </nav>
+      <!---------image filter----------->
+      <div class="gallery">
+        <div class="image" data-name="application"><a><img src="./assets/ap1.png" alt="image"></img></a></div>
+        <div class="image" data-name="application"><a><img src="./assets/ap2.png" alt="image"></img></a></div>
+        <div class="image" data-name="application"><a><img src="./assets/ap3.png" alt="image"></img></a></div>       
+        <div class="image" data-name="web design"><a href="https://www.behance.net/gallery/149147981/watchly-ecommerce-website"><img src="./assets/ph1.png" alt="image"></img></a></div>
+        <div class="image" data-name="web design"><a><img src="./assets/ph2.png" alt="image"></img></a></div>
+        <div class="image" data-name="web design"><a><img src="./assets/ph4.png" alt="image"></img></a></div>
+        <div class="image" data-name="web design"><a><img src="./assets/ph3.png" alt="image"></img></a></div>
+        <div class="image" data-name="graphic design"><a><img src="./assets/gd1.png" alt="image"></img></a></div>
+      </div>
+    </div>
+
+
+    <!---------- js file ------------->
+    <script src="./javascript/script.js"></script>
+
+    <div class="contact" id="contact">
+      <div class="contactinfo">
+        <div class="info">
+          <h2>Have a project?<br>I would love to help</h2>
+          <p><a class="fas fa-envelope"></a> ayushcon2000@gmail.com</p>
+                
+          <div class="social">
+            
+            <a href="https://www.instagram.com/wanderer_._79/" class="fab fa-instagram"></a>
+            <a href="https://github.com/ayus79" class="fab fa-github"><a>
+            <a href="https://www.linkedin.com/in/ayush-contractor-055b381a6/" class="fab fa-linkedin"></a>
+            <a href="https://dribbble.com/ash79" class="fab fa-dribbble"></a>
+            <a href="https://www.behance.net/ayushcont" class="fab fa-behance"></a>  
+            <a href="https://codonoic.blogspot.com" class="fab fa-blogger"></a>
+                   
+
+          </div>
+          <h3>let's be the <a>internet</a> buddy</h3>
+
+        </div>
+
+        <div class="contact-form">
+          <h2>Connect with me</h2>
+          
+          <form id="contact-form">
+            <label>Name</label><br>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+            <label>Email</label><br>
+            <input type="email" id="email"   placeholder="Enter your email" required><br>
+            <label>Phone Number</label><br>
+            <input type="text" id="phone"   placeholder="Enter your phone number"><br>
+            <label>Message</label><br>
+            <textarea name="" id="message"   placeholder="Enter your message" required></textarea><br>
+            <button type="submit" id="button" >Submit</button>
+          </form>
+
+        </div>
+      </div>
+
+      <div class="copyright">
+        <h6>© Copyright ayush contractor. All Rights Reserved</h6>
+      </div>
+      
+    </div>
+    
+<!----------------------------- scroll to top -------------------------------->     
+    <a href="#" class="to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    <script src="./javascript/scroll.js"></script>
+<!-------------------------------- firebase --------------------------------------------> 
+ 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
